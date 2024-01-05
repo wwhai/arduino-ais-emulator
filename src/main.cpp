@@ -7,7 +7,7 @@ void setup()
 // pio run -e uno -t upload --upload-port COM4
 void loop()
 {
-  Serial.print("$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*6A\r\n");
+  Serial.print("$GPRMC,123519,A,4807.038,N,01131.000,E,022.4,084.4,230394,003.1,W*65\r\n");
   delay(100);
   Serial.print("!AIVDM,1,1,,A,C6:aq@@0822o1cTHJgb=swhPjbhBL@bOSeeUd0000000S5063TBP,0*5A\r\n");
   delay(100);
