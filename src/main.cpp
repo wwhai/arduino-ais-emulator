@@ -3,6 +3,10 @@
 void setup()
 {
   Serial.begin(9600);
+  while (!Serial)
+  {
+    ;
+  }
 }
 // pio run -e uno -t upload --upload-port COM4
 void loop()
